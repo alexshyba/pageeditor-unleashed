@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {571F89D2-7771-42C6-9E3B-A6ED153D8F94}
+database: master
+path: /sitecore/templates/SUVG/Sidebar Promo/Promo
+parent: {3A7EC9EC-ADFF-4054-8A8D-36B72DDAC0EA}
+name: Promo
+master: {00000000-0000-0000-0000-000000000000}
+template: {E269FBB5-3750-427A-9149-7AA950B49301}
+templatekey: Template section
+
+----version----
+language: en
+version: 1
+revision: 4f40235f-4ab4-473b-9ac6-6279178d834b
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120515T144038
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+4f40235f-4ab4-473b-9ac6-6279178d834b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120515T144039:634726896393206284
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

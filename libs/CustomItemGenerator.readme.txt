@@ -1,0 +1,4 @@
+Note this is a custom CIG DLL built against Castle NVelocity in order for CIG to work on .NET 4.0.
+
+See comments here:
+http://blog.velir.com/index.php/2010/10/19/custom-item-generator/

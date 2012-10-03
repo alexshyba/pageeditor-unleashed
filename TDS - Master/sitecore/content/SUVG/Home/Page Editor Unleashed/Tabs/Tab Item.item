@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {C43B9759-C251-4F95-8156-AB39A76A2785}
+database: master
+path: /sitecore/content/SUVG/Home/Page Editor Unleashed/Tabs/Tab Item
+parent: {80E1E800-30E1-4D89-9ADB-4ACE09BA58F5}
+name: Tab Item
+master: {00000000-0000-0000-0000-000000000000}
+template: {7CC6D44C-6E5D-4648-BBCF-2BBF5D456F32}
+templatekey: Tab Content
+
+----version----
+language: en
+version: 1
+revision: 38ab1d0e-a3a7-428d-ba2b-75e8aaaf4237
+
+----field----
+field: {B4C04E6D-EB97-4EC1-BB52-38161254AA8A}
+name: Tab Name
+key: tab name
+content-length: 8
+
+Tab Item
+----field----
+field: {033418AB-2E2C-4B09-A619-EEEB03BEF93B}
+name: Text
+key: text
+content-length: 5
+
+Hello
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120516T114519
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+38ab1d0e-a3a7-428d-ba2b-75e8aaaf4237
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120516T114527:634727655270817275
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

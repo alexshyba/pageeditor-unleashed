@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Page Editor: Unleashed</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet" />
+
+    <style>
+        body { font-family: Sans-Serif; }
+        h2 { margin-top: 30px; }
+        .wrapper { width: 960px; margin: 0 auto;}
+        .body { width: 760px; float: left; margin: 10px 0px 10px 0px; border: 1px solid black; }
+        .sidebar { width: 190px; float: right; margin: 10px 0px 10px 0px; border-left: 0px; padding-left: 8px;}
+        .intro { width: 740px; margin: 5px 5px 5px 5px; border: 1px solid gray; overflow: hidden; }
+        .intro p { width: 350px; float: left; margin-right: 40px; }
+        .intro img { display: block; width: 300px; height: 253px; float: right; }
+        .reverse p { float: right; }
+        .reverse img { float: left; }
+        .highlights { margin: 10px 0 20px 0; border: 1px solid gray; overflow: hidden; }
+        .highlight { width: 375px; float: left; margin: 5px 0 5px 0; }
+        .highlight img { float: left; width: 160px; }
+        .accordion { border: 1px solid gray; }
+        .accordion .twocol p { width: 48%; padding-right: 2%; float: left; }
+        .sidebar h4 { margin-bottom: 5px; font-size: 15px; }
+        .side-promo { margin-bottom: 10px; }
+        .side-promo p { margin-top: 3px; }
+        .side-login { font-size: 12px; border: 1px dotted black; margin-bottom: 10px; }
+        .side-related { border: 1px dotted black; }
+        .side-related ul { margin-top: 0px; margin-bottom: 10px; }
+        .side-related li { font-size: 15px; }
+        .footer { clear: both; }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <div class="header">
+        <h2>The Page Editor: Unleashed</h2>
+    </div>
+
+    <div class="body">
+
+        <h2>Intro</h2>
+        <div class="intro">
+            <p>Do commodo labore, salami cow irure ut officia qui ut tongue spare ribs ea bacon boudin. Sint chicken magna, andouille ea swine chuck in.</p>
+            <img src="http://placekitten.com/g/300/253" />
+        </div>
+
+        <h2>Intro Reverse</h2>
+        <div class="intro reverse">
+            <p>Do commodo labore, salami cow irure ut officia qui ut tongue spare ribs ea bacon boudin. Sint chicken magna, andouille ea swine chuck in.</p>
+            <img src="http://placekitten.com/g/300/253" />
+        </div>
+
+        <h2>Body Copy</h2>
+        <div class="body-copy">
+            Tri-tip swine brisket, cupidatat pig exercitation qui consequat rump adipisicing ham esse elit jerky corned beef. Pork belly sed short loin et id turkey incididunt, eu strip steak in non pork chop. Beef adipisicing voluptate ut jowl, fatback shoulder pancetta. In aliqua nulla esse, rump t-bone cow voluptate. Consequat aliqua venison, ground round meatball est short loin drumstick fugiat sirloin sausage. Ad shank in ut, eiusmod aliqua culpa. In elit swine, meatball ullamco exercitation tempor sint andouille adipisicing bresaola.
+        </div>
+
+        <h2>Highlights</h2>
+        <div class="highlights">
+            <div class="highlight">
+                <img src="http://placekitten.com/g/160/90" />
+                <h3>Sirloin elit dolor exercitation</h3>
+                <p>Cupidatat culpa sint, ground round consectetur pastrami quis jerky jowl beef ribs turkey pork nostrud meatloaf.</p>
+            </div>
+            <div class="highlight">
+                <img src="http://placekitten.com/g/160/90" />
+                <h3>Sirloin elit dolor exercitation</h3>
+                <p>Cupidatat culpa sint, ground round consectetur pastrami quis jerky jowl beef ribs turkey pork nostrud meatloaf.</p>
+            </div>
+            <div class="highlight">
+                <img src="http://placekitten.com/g/160/90" />
+                <h3>Sirloin elit dolor exercitation</h3>
+                <p>Cupidatat culpa sint, ground round consectetur pastrami quis jerky jowl beef ribs turkey pork nostrud meatloaf.</p>
+            </div>
+            <div class="highlight">
+                <img src="http://placekitten.com/g/160/90" />
+                <h3>Sirloin elit dolor exercitation</h3>
+                <p>Cupidatat culpa sint, ground round consectetur pastrami quis jerky jowl beef ribs turkey pork nostrud meatloaf.</p>
+            </div>
+        </div>
+
+        <h2>Accordion Content</h2>
+        <div class="accordion">
+            <h3><a href="#">Et incididunt short ribs</a></h3>
+            <div>
+                <p>Exercitation ullamco ut, shank anim venison dolore salami. Chuck irure ham t-bone, strip steak laborum flank labore anim shank culpa aute aliquip sed. Tenderloin brisket jerky elit, nulla dolor flank ex ball tip cupidatat velit aute sunt tempor consectetur. </p>
+            </div>
+            <h3><a href="#">Et incididunt short ribs</a></h3>
+            <div>
+                <p>Exercitation ullamco ut, shank anim venison dolore salami. Chuck irure ham t-bone, strip steak laborum flank labore anim shank culpa aute aliquip sed. Tenderloin brisket jerky elit, nulla dolor flank ex ball tip cupidatat velit aute sunt tempor consectetur. </p>
+            </div>
+            <h3><a href="#">Et incididunt short ribs</a></h3>
+            <div>
+                <p>Exercitation ullamco ut, shank anim venison dolore salami. Chuck irure ham t-bone, strip steak laborum flank labore anim shank culpa aute aliquip sed. Tenderloin brisket jerky elit, nulla dolor flank ex ball tip cupidatat velit aute sunt tempor consectetur. </p>
+            </div>
+            <h3><a href="#">Accordion Two Column</a></h3>
+            <div class="twocol">
+                <p>Exercitation ullamco ut, shank anim venison dolore salami. Chuck irure ham t-bone, strip steak laborum flank labore anim shank culpa aute aliquip sed. Tenderloin brisket jerky elit, nulla dolor flank ex ball tip cupidatat velit aute sunt tempor consectetur.</p>
+                <p>Exercitation ullamco ut, shank anim venison dolore salami. Chuck irure ham t-bone, strip steak laborum flank labore anim shank culpa aute aliquip sed. Tenderloin brisket jerky elit, nulla dolor flank ex ball tip cupidatat velit aute sunt tempor consectetur. </p>
+            </div>
+        </div>
+
+        <h2>Tab Content</h2>
+        <div class="tabs">
+	        <ul>
+		        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+		        <li><a href="#tabs-2">Proin dolor</a></li>
+		        <li><a href="#tabs-3">Aenean lacinia</a></li>
+	        </ul>
+	        <div id="tabs-1">
+                <img src="http://placekitten.com/g/160/90" alt="kitty" /> <br />
+		        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+	        </div>
+	        <div id="tabs-2">
+		        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+	        </div>
+	        <div id="tabs-3">
+		        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+		        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+	        </div>
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+        <div class="side-promo">
+            <img src="http://placekitten.com/g/190/100" />
+            <p>One Kitty</p>
+        </div>
+        <div class="side-promo">
+            <img src="http://placekitten.com/g/190/100" />
+            <p>Two Kitty</p>
+        </div>
+        <div class="side-promo">
+            <img src="http://placekitten.com/g/190/100" />
+            <p>Three Kitty</p>
+        </div>
+        <div class="side-login">
+            <h4>Login</h4>
+            User <input type="text" size="15" /><br />
+            Password <input type="text" size="15" /><br />
+            <input type="submit" value="Go" />
+        </div>
+        <div class="side-related">
+            <h4>Related Pages</h4>
+            <ul>
+                <li><a href="#">Page One</a></li>
+                <li><a href="#">Page Two</a></li>
+                <li><a href="#">Page Three</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        
+    </div>
+
+</div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+<script type="text/javascript">
+    jQuery(function () {
+        jQuery(".accordion").accordion();
+    });
+
+    jQuery(function () {
+        jQuery(".tabs").tabs();
+    });
+</script>
+</body>
+</html>

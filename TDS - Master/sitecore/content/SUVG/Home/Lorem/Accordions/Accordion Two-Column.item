@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {E085755E-B25F-4E86-920A-D53BFE9904D2}
+database: master
+path: /sitecore/content/SUVG/Home/Lorem/Accordions/Accordion Two-Column
+parent: {147805D2-DB63-489B-99CE-8BC90B545EBA}
+name: Accordion Two-Column
+master: {00000000-0000-0000-0000-000000000000}
+template: {A5FE57CA-0750-45F5-911A-6B1D0B1FD7A3}
+templatekey: Accordion Two-Column
+
+----version----
+language: en
+version: 1
+revision: a5621be4-dd93-4acb-b05d-4736e0991ee0
+
+----field----
+field: {2C25D773-D70A-4DE8-919C-7EF5C721C4D5}
+name: Title
+key: title
+content-length: 11
+
+Two Columns
+----field----
+field: {014A2BAB-CAAF-48EE-9F32-DD21753D9397}
+name: Copy
+key: copy
+content-length: 33
+
+<p>Lorem ipsum dolor sit amet</p>
+----field----
+field: {6DD5A83B-873E-4FFD-B3AA-D5C6475083B6}
+name: Secondary Copy
+key: secondary copy
+content-length: 37
+
+<p>And here is some more content!</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120515T210054
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a5621be4-dd93-4acb-b05d-4736e0991ee0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120515T210133:634727124932358976
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

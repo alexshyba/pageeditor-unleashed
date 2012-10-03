@@ -1,0 +1,107 @@
+----item----
+version: 1
+id: {09B05057-7C89-4C71-B192-86ADBE5774C6}
+database: master
+path: /sitecore/layout/Sublayouts/SUVG/Tab Item
+parent: {3C86692D-C761-433C-89AC-CBB9F2601454}
+name: Tab Item
+master: {00000000-0000-0000-0000-000000000000}
+template: {0A98E368-CDB9-4E1E-927C-8E0C24A003FB}
+templatekey: Sublayout
+
+----field----
+field: {462A3406-2182-4134-8484-FDC3DD0326DD}
+name: Open Properties after Add
+key: open properties after add
+content-length: 0
+
+
+----field----
+field: {E42081B6-8A95-4A11-89CE-DF70ED502F57}
+name: Path
+key: path
+content-length: 26
+
+/layouts/SUVG/TabItem.ascx
+----field----
+field: {AD6A7DB0-C741-4509-A5EB-FA582642E960}
+name: Parameters
+key: parameters
+content-length: 60
+
+contentFolderTemplate={F5DB5129-06EE-41F1-805B-992C8B78AAEC}
+----field----
+field: {B5B27AF1-25EF-405C-87CE-369B3A004016}
+name: Datasource Location
+key: datasource location
+content-length: 6
+
+./Tabs
+----field----
+field: {1A7C85E5-DC0B-490D-9187-BB1DBCB4C72F}
+name: Datasource Template
+key: datasource template
+content-length: 36
+
+/sitecore/templates/SUVG/Tab Content
+----field----
+field: {C7C26117-DBB1-42B2-AB5E-F7223845CCA3}
+name: __Thumbnail
+key: __thumbnail
+content-length: 146
+
+<image mediaid="{5B41D7EB-3DC1-477C-81A1-8D9728AF4A3C}" mediapath="/Sublayouts/Tab Content" src="~/media/5B41D7EB3DC1477C81A18D9728AF4A3C.ashx" />
+----version----
+language: en
+version: 1
+revision: 227f54c8-6a46-4c3c-9577-3bb0d2f5ea3f
+
+----field----
+field: {7C51DBF3-2303-44B9-A3CB-6E24967A6284}
+name: Description
+key: description
+content-length: 34
+
+<p>A tab within a set of tabs.</p>
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20110804T102200
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+227f54c8-6a46-4c3c-9577-3bb0d2f5ea3f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120515T185350:634727048306458976
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {2621A050-3518-4185-9B84-11F6764C474A}
+database: master
+path: /sitecore/content/SUVG/Home/Lorem/Ipsum
+parent: {0F890A22-5AAE-4D67-A88F-143192945B24}
+name: Ipsum
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB62EB26-B7F4-4430-9319-0D12C50EF417}
+templatekey: Page
+
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1144
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{9E56295B-9454-492B-8C01-156FFE86A9B7}" p:before="r[@uid='{2DE2775A-368F-4745-8481-94B489BD422E}']" s:ds="{FD4D7C16-34CE-4A36-9797-0612AE1D5262}" s:id="{BAF186A5-58A3-40D7-B72D-E0B8B3E8FA95}" s:ph="/suvg-main/suvg-accordion{806645cc-9314-4702-8fcb-061fa31294dd}" /><r uid="{2DE2775A-368F-4745-8481-94B489BD422E}" p:before="r[@uid='{B17F8CC9-746B-4C86-B5F8-7F891BBD1F98}']" s:ds="{D924A592-C66D-471C-B35B-37501CFFA7A1}" s:id="{BAF186A5-58A3-40D7-B72D-E0B8B3E8FA95}" s:ph="/suvg-main/suvg-accordion{643202ff-0151-4493-acc3-4982cb743aa1}" /><r uid="{B17F8CC9-746B-4C86-B5F8-7F891BBD1F98}" p:before="r[@uid='{EE9C7DCA-3BB2-48AA-BE82-CE83035C5625}']" s:ds="{35716B56-3583-4724-8C20-097A02BB1A7B}" s:id="{D5273BD2-2901-41D4-BBE5-65F4DCF0947B}" s:ph="suvg-sidebar" /><r uid="{643202FF-0151-4493-ACC3-4982CB743AA1}" p:before="r[@uid='{806645CC-9314-4702-8FCB-061FA31294DD}']" s:id="{FB7582C7-3769-4CED-A353-CB3AE866A35F}" s:ph="suvg-main" /><r uid="{806645CC-9314-4702-8FCB-061FA31294DD}" s:id="{FB7582C7-3769-4CED-A353-CB3AE866A35F}" s:ph="suvg-main" /></d></r>
+----version----
+language: en
+version: 1
+revision: 6a15c74b-7b4a-49f2-8f69-cb6d2f543f78
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120515T144751
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+6a15c74b-7b4a-49f2-8f69-cb6d2f543f78
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120515T183747:634727038672008976
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

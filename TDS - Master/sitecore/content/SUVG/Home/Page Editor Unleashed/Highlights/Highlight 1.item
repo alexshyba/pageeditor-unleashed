@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {F02ABD58-3CD9-45C4-8CB7-B5FF950F03A2}
+database: master
+path: /sitecore/content/SUVG/Home/Page Editor Unleashed/Highlights/Highlight 1
+parent: {2EBFA18E-E621-471F-BD14-13932E6BE13E}
+name: Highlight 1
+master: {00000000-0000-0000-0000-000000000000}
+template: {C4631C19-3290-4BC9-A435-B142D9DF603C}
+templatekey: Section Highlight
+
+----field----
+field: {5C0E173A-4277-4D6A-81B0-FF3F9928B1FB}
+name: Image
+key: image
+content-length: 140
+
+<image mediaid="{8288E2DE-1788-4527-B487-6289FFBB442C}" mediapath="/Images/highlight" src="~/media/8288E2DE17884527B4876289FFBB442C.ashx" />
+----version----
+language: en
+version: 1
+revision: f1b5a20a-58d3-4872-9ff1-b69bcf92b2a4
+
+----field----
+field: {09B06EAD-D5D3-4D89-9E58-27EE1CC96026}
+name: Title
+key: title
+content-length: 5
+
+Hello
+----field----
+field: {E475256C-1235-4F25-B535-147322296597}
+name: Copy
+key: copy
+content-length: 5
+
+world
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120516T113620
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f1b5a20a-58d3-4872-9ff1-b69bcf92b2a4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20120516T113701:634727650213021546
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
